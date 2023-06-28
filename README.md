@@ -11,3 +11,4 @@ Demo of using best practices for tkinter
 * Event Driven Programming
 * Window and widgets tree
 * Layout design options - pack, grid, place(no example)
+* Event binding
