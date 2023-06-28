@@ -39,6 +39,7 @@ class MyFirstGUI:
         print("Greetings!")
 
     def cycle_label_text(self, event):
+        # `event` gives access to x, y coordinates of the click
         self.label_index += 1
         self.label_index %= len(self.LABEL_TEXT) # wrap around
         self.label_text.set(self.LABEL_TEXT[self.label_index])
